@@ -40,18 +40,32 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+You can use express to serve Single Page Applications.
+
+Ordering of express middleware matters.
+
 -   [ ] Describe Middleware?
+
+Middleware is used like plugins to give express extra functionality.
+
+3 types of middleware are built-in, 3rd party and custom middleware.
 
 -   [ ] Describe a Resource?
 
+A resource is an object with a type, associated data, relationships to other resources, and a set of methods that operate on it (GET, POST, PUT, DELETE).
+
 -   [ ] What can the API return to help clients know if a request was successful?
+
+Status Codes and messages
 
 -   [ ] How can we partition our application into sub-applications?
 
+By putting seperate routes in thier own router files with their own middleware.
+
 ## Minimum Viable Product
 
--   [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
--   [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+-   [ x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+-   [ x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
